@@ -1,0 +1,26 @@
+simulation:
+  ubahn_lines:
+    - U8
+    - U2
+    - U5
+  simulation_speed: 1.0
+  time_step_seconds: 1.0
+  train_speed_kmh: 10.0
+  dwell_time_seconds: 20.0
+  trains_per_line: 2
+  gtfs_path: GTFS/
+  initial_passengers: 1000
+
+visualization:
+  window_height: 1000
+  window_width: 1600
+  fps: 60
+  train_width: 5
+  train_height: 25
+  station_radius: 8
+  show_station_names: False
+  show_debug_info: true
+  background_color: "#FFFFFF"
+  station_color: "#000000"
+  train_color: "#FF0000"
+  text_color: "#000000"
